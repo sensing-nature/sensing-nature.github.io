@@ -3,7 +3,7 @@ I consider myself a creative person, a wild adventurer and a cultural traveler. 
 
 #### You can checkout my web [**Here**](https://sensing-nature.github.io) :boom:
 
-![Sensing-Nature](assets/images/meta.png)
+![Sensing-Nature](assets/images/meta.png){https://sensing-nature.github.io}
 
 # What it's all about:
 * Environmental Science

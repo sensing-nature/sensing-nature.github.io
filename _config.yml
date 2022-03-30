@@ -1,0 +1,98 @@
+# Sensing Nature
+markdown: kramdown
+
+# URL of the Site
+url: 'https://sensing-nature.github.io'
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
+
+# Title of the Site
+title: Sensing Nature
+# Description of the Site
+description: Environmental Science, Audiovisuals, Electronics and Nature 
+# URL of Image of the Site
+site-image: /assets/images/meta.jpg
+# Keywords of the Site
+site-keywords: environmental science, environmental education, environmental management, electronics, audiovisuals, nature
+# URL for the Image of custom Favicon
+favicon-url: /assets/images/favicon.ico
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: /assets/images/Principal_Image_1280x720.png
+
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: sensing.nature.franzis@gmail.com
+facebook_username: /
+twitter_username: /
+instagram_username: /
+linkedin_username: /
+github_username:  sensing-nature
+youtube_channel_id: UCcj9jPGOVPGEEpsB6gX3KFg
+reddit_username: /
+behance_username: /
+dribbble_username: /
+spotify_username: /
+
+# Google Analytics
+google-analytics: UA-306792057-1
+
+# Disqus
+disqus-shortname: sensing-nature
+
+# Name of the Author
+author-name: Franzis Sanchez
+# URL for the Image of the Author
+author-image: /assets/images/Francis_Sanchez.jpg
+# 60 Words About the Author
+author-about: I consider myself a creative person, a wild adventurer and a cultural traveler. I have developed interpersonal skills as an Environmental Educator, so that allow me to teach people about nature by designing environmental programs with educational activities for community participation. As an Environmental Manager, I have learned to make high quality reports based on environmental data for compliance with environmental legislation, as well as sustainability strategies and campaigns with green marketing promotion to public entities and private companies, so I know well how to identify and deal with ecological problems throughout environmental actions such as circular economy plans, environmental impact assessments, life cycle assessments, energy savings and ecological footprint audits, among others, for finally stopping global warming, human waste, energy crisis, deforestation, biodiversity loss, air, water and land pollution. I really enjoy creating outdoor social media content to promote environmental awareness.  I also have a background in electronics and programming, so I often build inexpensive technological devices with microcomputers to extract useful and valuable environmental information.
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://sensing-nature.github.io
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+  - jekyll-pdf-embed
+  
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
